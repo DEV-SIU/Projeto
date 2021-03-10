@@ -3,7 +3,7 @@ package one.digitalnnovation.digionebank
 class Pessoa {
     var nome: String = "Lucas"
 
-    //private vai privar as variavel (var ou val) de ser setada ou dar get fora da class pertencente
+    //private vai privar as variavel (somente var) de ser setada ou dar get fora da class pertencente
     /*private var cpf:String = "123.456.789.10"*/
 
     var cpf:String = "123.456.789.10"
@@ -16,16 +16,18 @@ class Pessoa {
         var rua: String = "Rua das caixibinhas"
     }*/
 
+    /*constructor()*/
+
+    fun informacao() = "Seu nome: $nome\nSeu Cpf: $cpf "
+
 }
 
 fun main() {
     val lucas = Pessoa()
-
     //println(lucas)
-
-
-    println(lucas.nome)
-    println(lucas.cpf)
+    println(lucas.informacao())
+    //println(lucas.nome)
+    //println(lucas.cpf)
 
 
     //chamando class interna
