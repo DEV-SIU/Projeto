@@ -6,15 +6,15 @@ abstract class Funcionario(
     cpf: String,
     val salario: Double,
 ) : Pessoa(nome, cpf) {
-    protected abstract  fun  CalculoAuxilio(): Double;
+    protected abstract  fun  calculoAuxilio(): Double
 
-    protected  abstract  fun Total(): Double;
+    protected  abstract  fun total(): Double
 
     override fun toString(): String = """
         Nome: $nome
         CPF: $cpf
         Salario: $salario
-        Auxilio: ${CalculoAuxilio()}
-        Total: ${Total()}
+        Auxilio: ${calculoAuxilio()}
+        Total: ${total()}
     """.trimIndent()
     }

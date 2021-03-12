@@ -1,6 +1,5 @@
 package one.digitalnnovation.digionebank.testes
 
-import one.digitalnnovation.digionebank.Pessoa
 
 fun main() {
 //val lucas = Pessoa("Lucas","123456789")

@@ -1,7 +1,6 @@
 package one.digitalnnovation.digionebank.testes
 
 import one.digitalnnovation.digionebank.Analista
-import one.digitalnnovation.digionebank.Funcionario
 
 
 fun main() {

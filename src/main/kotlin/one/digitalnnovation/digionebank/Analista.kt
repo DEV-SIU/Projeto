@@ -5,7 +5,7 @@ class Analista(nome: String,
                cpf: String,
                salario: Double,
 ): Funcionario(nome, cpf, salario) {
-    override fun CalculoAuxilio() = (salario * 0.1)
-    override fun Total(): Double = (CalculoAuxilio() + salario)
+    override fun calculoAuxilio() = (salario * 0.1)
+    override fun total(): Double = (calculoAuxilio() + salario)
     }
 
