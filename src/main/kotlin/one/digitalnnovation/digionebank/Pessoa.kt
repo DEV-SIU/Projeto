@@ -1,10 +1,41 @@
 package one.digitalnnovation.digionebank
 
-class Pessoa {
+abstract class Pessoa(
+     var nome: String,
+     var cpf: String
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*class Pessoa {
     var nome: String = "Lucas"
 
     //private vai privar as variavel (somente var) de ser setada ou dar get fora da class pertencente
-    /*private var cpf:String = "123.456.789.10"*/
+    //private var cpf:String = "123.456.789.10"
 
     var cpf:String = "123.456.789.10"
 
@@ -12,24 +43,24 @@ class Pessoa {
     private set
 
     //inner class usado para criar um class interna dentro de uma  class
-   /* inner class Endereco{
-        var rua: String = "Rua das caixibinhas"
-    }*/
+    //inner class Endereco{
+      //  var rua: String = "Rua das caixibinhas"
+   // }
 
     /*constructor()*/
 
     fun informacao() = "Seu nome: $nome\nSeu Cpf: $cpf "
 
-}
+}*/
 
-fun main() {
-    val lucas = Pessoa()
+//fun main() {
+   // val lucas = Pessoa()
     //println(lucas)
-    println(lucas.informacao())
+   // println(lucas.informacao())
     //println(lucas.nome)
     //println(lucas.cpf)
 
 
     //chamando class interna
     //println(lucas.Endereco().rua)
-}
+//}
