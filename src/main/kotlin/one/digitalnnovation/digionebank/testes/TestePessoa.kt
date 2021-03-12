@@ -3,7 +3,7 @@ package one.digitalnnovation.digionebank.testes
 import one.digitalnnovation.digionebank.Pessoa
 
 fun main() {
-val lucas = Pessoa("Lucas","123456789")
+//val lucas = Pessoa("Lucas","123456789")
     //println(lucas)
     //println(lucas.informacao())
     //println(lucas.nome)
